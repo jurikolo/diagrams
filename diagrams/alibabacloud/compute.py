@@ -24,6 +24,10 @@ class ContainerService(_Compute):
     _icon = "container-service.png"
 
 
+class ElasticComputeServiceBareMetal(_Compute):
+    _icon = "elastic-compute-service-bare-metal.png"
+
+
 class ElasticComputeService(_Compute):
     _icon = "elastic-compute-service.png"
 
@@ -40,8 +44,16 @@ class ElasticSearch(_Compute):
     _icon = "elastic-search.png"
 
 
+class Fpga(_Compute):
+    _icon = "fpga.png"
+
+
 class FunctionCompute(_Compute):
     _icon = "function-compute.png"
+
+
+class Gpu(_Compute):
+    _icon = "gpu.png"
 
 
 class OperationOrchestrationService(_Compute):
@@ -62,6 +74,10 @@ class ServerlessAppEngine(_Compute):
 
 class SimpleApplicationServer(_Compute):
     _icon = "simple-application-server.png"
+
+
+class SuperComputingCluster(_Compute):
+    _icon = "super-computing-cluster.png"
 
 
 class WebAppService(_Compute):

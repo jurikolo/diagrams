@@ -8,6 +8,10 @@ class _Security(_AlibabaCloud):
     _icon_dir = "resources/alibabacloud/security"
 
 
+class ActionTrail(_Security):
+    _icon = "action-trail.png"
+
+
 class AntiBotService(_Security):
     _icon = "anti-bot-service.png"
 
@@ -20,12 +24,32 @@ class AntiDdosPro(_Security):
     _icon = "anti-ddos-pro.png"
 
 
+class AntiDdos(_Security):
+    _icon = "anti-ddos.png"
+
+
+class AntiFraud(_Security):
+    _icon = "anti-fraud.png"
+
+
 class AntifraudService(_Security):
     _icon = "antifraud-service.png"
 
 
+class AutomatedVulnerabilityDetectionSystem(_Security):
+    _icon = "automated-vulnerability-detection-system.png"
+
+
 class BastionHost(_Security):
     _icon = "bastion-host.png"
+
+
+class CertificatesService(_Security):
+    _icon = "certificates-service.png"
+
+
+class CloudAuthentication(_Security):
+    _icon = "cloud-authentication.png"
 
 
 class CloudFirewall(_Security):
@@ -48,6 +72,10 @@ class DataEncryptionService(_Security):
     _icon = "data-encryption-service.png"
 
 
+class DatabaseAuditing(_Security):
+    _icon = "database-auditing.png"
+
+
 class DbAudit(_Security):
     _icon = "db-audit.png"
 
@@ -60,16 +88,52 @@ class IdVerification(_Security):
     _icon = "id-verification.png"
 
 
+class KeyManagementService(_Security):
+    _icon = "key-management-service.png"
+
+
 class ManagedSecurityService(_Security):
     _icon = "managed-security-service.png"
+
+
+class MobileSecurity(_Security):
+    _icon = "mobile-security.png"
+
+
+class ResourceAccessManagement(_Security):
+    _icon = "resource-access-management.png"
 
 
 class SecurityCenter(_Security):
     _icon = "security-center.png"
 
 
+class SecurityService(_Security):
+    _icon = "security-service.png"
+
+
+class SecuritySituationAwareness(_Security):
+    _icon = "security-situation-awareness.png"
+
+
+class SecurityTest2(_Security):
+    _icon = "security-test-2.png"
+
+
+class SecurityTest(_Security):
+    _icon = "security-test.png"
+
+
+class SecurityTokenService(_Security):
+    _icon = "security-token-service.png"
+
+
 class ServerGuard(_Security):
     _icon = "server-guard.png"
+
+
+class Sos(_Security):
+    _icon = "sos.png"
 
 
 class SslCertificates(_Security):

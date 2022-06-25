@@ -8,6 +8,18 @@ class _Storage(_AlibabaCloud):
     _icon_dir = "resources/alibabacloud/storage"
 
 
+class ArchiveStorage(_Storage):
+    _icon = "archive-storage.png"
+
+
+class BlockStorage(_Storage):
+    _icon = "block-storage.png"
+
+
+class CloudPhotos(_Storage):
+    _icon = "cloud-photos.png"
+
+
 class CloudStorageGateway(_Storage):
     _icon = "cloud-storage-gateway.png"
 
@@ -28,8 +40,16 @@ class HybridCloudDisasterRecovery(_Storage):
     _icon = "hybrid-cloud-disaster-recovery.png"
 
 
+class HybridCloudStorageArray(_Storage):
+    _icon = "hybrid-cloud-storage-array.png"
+
+
 class Imm(_Storage):
     _icon = "imm.png"
+
+
+class LightningCube(_Storage):
+    _icon = "lightning-cube.png"
 
 
 class ObjectStorageService(_Storage):
@@ -38,6 +58,10 @@ class ObjectStorageService(_Storage):
 
 class ObjectTableStore(_Storage):
     _icon = "object-table-store.png"
+
+
+class YundunHybridCloud(_Storage):
+    _icon = "yundun-hybrid-cloud.png"
 
 
 # Aliases

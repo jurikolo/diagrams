@@ -8,6 +8,10 @@ class _Database(_AlibabaCloud):
     _icon_dir = "resources/alibabacloud/database"
 
 
+class AdvancedDatabaseAndApplicationMigration(_Database):
+    _icon = "advanced-database-and-application-migration.png"
+
+
 class ApsaradbCassandra(_Database):
     _icon = "apsaradb-cassandra.png"
 
@@ -40,6 +44,10 @@ class ApsaradbPpas(_Database):
     _icon = "apsaradb-ppas.png"
 
 
+class ApsaradbRds(_Database):
+    _icon = "apsaradb-rds.png"
+
+
 class ApsaradbRedis(_Database):
     _icon = "apsaradb-redis.png"
 
@@ -68,12 +76,44 @@ class GraphDatabaseService(_Database):
     _icon = "graph-database-service.png"
 
 
+class HighPerformanceTimeSeriesDatabase(_Database):
+    _icon = "high-performance-time-series-database.png"
+
+
+class HybridCloudDatabaseManagement(_Database):
+    _icon = "hybrid-cloud-database-management.png"
+
+
 class HybriddbForMysql(_Database):
     _icon = "hybriddb-for-mysql.png"
 
 
+class HybriddbForPostgresql(_Database):
+    _icon = "hybriddb-for-postgresql.png"
+
+
+class Hybriddb(_Database):
+    _icon = "hybriddb.png"
+
+
+class Oceanbase(_Database):
+    _icon = "oceanbase.png"
+
+
+class Opensearch(_Database):
+    _icon = "opensearch.png"
+
+
+class Polardb(_Database):
+    _icon = "polardb.png"
+
+
 class RelationalDatabaseService(_Database):
     _icon = "relational-database-service.png"
+
+
+class Tablestore(_Database):
+    _icon = "tablestore.png"
 
 
 # Aliases
