@@ -8,12 +8,40 @@ class _Web(_AlibabaCloud):
     _icon_dir = "resources/alibabacloud/web"
 
 
+class CloudWebHosting(_Web):
+    _icon = "cloud-web-hosting.png"
+
+
+class CorporateWebsite(_Web):
+    _icon = "corporate-website.png"
+
+
 class Dns(_Web):
     _icon = "dns.png"
 
 
 class Domain(_Web):
     _icon = "domain.png"
+
+
+class DomainsAndWebsites(_Web):
+    _icon = "domains-and-websites.png"
+
+
+class ElasticWebHosting(_Web):
+    _icon = "elastic-web-hosting.png"
+
+
+class Exmail(_Web):
+    _icon = "exmail.png"
+
+
+class HttpDns(_Web):
+    _icon = "http-dns.png"
+
+
+class WebHosting(_Web):
+    _icon = "web-hosting.png"
 
 
 # Aliases

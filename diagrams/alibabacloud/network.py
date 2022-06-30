@@ -16,6 +16,14 @@ class CloudEnterpriseNetwork(_Network):
     _icon = "cloud-enterprise-network.png"
 
 
+class CloudHosting(_Network):
+    _icon = "cloud-hosting.png"
+
+
+class DynamicRouteForCdn(_Network):
+    _icon = "dynamic-route-for-cdn.png"
+
+
 class ElasticIpAddress(_Network):
     _icon = "elastic-ip-address.png"
 
@@ -24,12 +32,36 @@ class ExpressConnect(_Network):
     _icon = "express-connect.png"
 
 
+class Flowbag(_Network):
+    _icon = "flowbag.png"
+
+
+class GlobalAcceleration(_Network):
+    _icon = "global-acceleration.png"
+
+
 class NatGateway(_Network):
     _icon = "nat-gateway.png"
 
 
+class NetworkAdmissionControl(_Network):
+    _icon = "network-admission-control.png"
+
+
+class P2PCdn(_Network):
+    _icon = "p2p-cdn.png"
+
+
+class SecureCdn(_Network):
+    _icon = "secure-cdn.png"
+
+
 class ServerLoadBalancer(_Network):
     _icon = "server-load-balancer.png"
+
+
+class SharedBandwidth(_Network):
+    _icon = "shared-bandwidth.png"
 
 
 class SmartAccessGateway(_Network):
